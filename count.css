@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600|Ubuntu+Mono&display=swap');
+
+html {
+    background-image: url("https://raw.githubusercontent.com/LimitlessSocks/EXU-Scrape/master/res/bg/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", "Gadugi", sans-serif;
+}
+
+input, select {
+    background: #330033;
+    color: white;
+    border: 1px solid #eeaaee;
+    padding: 3px;
+}
+
+.cardInput {
+    margin: 5px;
+    padding: 5px;
+    min-width: 350px;
+    min-height: 12em;
+    background: rgba(51, 0, 51, 0.8);
+    border: 1px solid #eeaaee;
+    color: white;
+    font-family: "Ubuntu Mono", "Consolas", monospace;
+}
+
+p {
+    margin: 0;
+    line-height: 29px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+#results {
+    font-size: 3em;
+    border-spacing: 1em;
+    display: inline-block;
+}
+
+#results td:nth-child(odd) {
+    text-align: right;
+}
+#results td:nth-child(even) {
+    text-align: left;
+}
+#resultsContainer {
+    width: 100%;
+    text-align: center;
+    background: rgba(51, 0, 51, 0.8);
+}

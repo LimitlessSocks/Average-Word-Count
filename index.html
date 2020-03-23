@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Average Word Count</title>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+    <script src="./count.js"></script>
+    <link rel="STYLESHEET" href="count.css">
+</head>
+<body>
+<h1>Average Word Counter</h1>
+<div id=resultsContainer>
+    <table id=results>
+        <tr>
+            <td>Shortest:</td>
+            <td id=shortest>--</td>
+            
+            <td>Longest:</td>
+            <td id=longest>--</td>
+        </tr>
+        <tr>
+            <td>Average:</td>
+            <td id=average>--</td>
+            
+            <td>Total:</td>
+            <td id=total>--</td>
+        </tr>
+    </table>
+</div>
+<p>Number of cards: <input id=cardCount type=number min=1></p>
+<div id=cardContainer>
+
+</div>
+</body>
+</html>
